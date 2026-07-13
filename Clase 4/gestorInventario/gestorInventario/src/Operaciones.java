@@ -9,6 +9,7 @@ public class Operaciones {
 
 
     public static void registrar(Scanner sc) {
+    
     nombre = Validador.leerTexto(sc,"nombre del pro0ducto");
     cantidad = Validador.leerEntero(sc,"cantidad del producto");
     precio = Validador.leerDecimal(sc,"precio del producto");
